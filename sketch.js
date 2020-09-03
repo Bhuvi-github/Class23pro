@@ -56,10 +56,11 @@ function draw() {
   packageSprite.x= packageBody.position.x 
   packageSprite.y= packageBody.position.y 
   
-  drawSprites();
   box1.display();
   box2.display();
   box3.display();
+	
+  drawSprites();
 }
 
 function keyPressed() {
